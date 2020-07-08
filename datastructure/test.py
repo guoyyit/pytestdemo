@@ -1,3 +1,4 @@
+# python 数据接口的使用
 #python list集合 使用方式
 list = [5,7,1,8,0,2,7,9,3,6]
 print(list[0])
