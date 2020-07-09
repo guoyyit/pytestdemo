@@ -42,3 +42,7 @@ selfref_list = str(selfref_list).encode("GBK")
 pickle.dump(data1,output)
 pickle.dump(selfref_list,output)
 output.close()
+
+print(open(file="D:\\pythonworkspace\\studypython\\test\\file\\b.txt",mode="r"))
+
+file = open(file="D:\\pythonworkspace\\studypython\\test\\file\\b.txt",mode="r")
