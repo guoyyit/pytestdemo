@@ -5,6 +5,7 @@ from collections import deque
 from test.test7 import say_hello
 
 say_hello()
+print(dir(say_hello))
 
 list = []
 for i in range(20):

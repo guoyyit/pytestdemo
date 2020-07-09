@@ -1,5 +1,6 @@
 # python 模块
 import sys
+from test.testpackage import a
 
 for i in sys.argv:
     print(i)
@@ -15,3 +16,10 @@ else:
 
 def say_hello():
     print('hello')
+
+print(dir(sys))
+print(dir())
+
+print(dir(a))
+
+a.test3()
