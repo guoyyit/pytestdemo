@@ -16,7 +16,8 @@ def findlist(sql):
     listresult = mycursor.fetchall()
     return listresult
 
-sql = "select * from userinfo where uid = 1"
+sql = "select * from userinfo order by uid"
 for l in findlist(sql):
+     print(l)
      for v in l:
          print(v)
